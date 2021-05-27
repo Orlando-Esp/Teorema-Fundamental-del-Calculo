@@ -31,10 +31,10 @@ x =a:base:(b-base);
 altura=x./sqrt(1+2*x.^2);
 %Valor de los rectangulos
 area =base*altura;
-x2 = linspace(0,3,100);
+x2 = linspace(0,3,20);
 y2 = x./sqrt(1+2*x.^2);
 %Fin e inicio de los intervalos
-xa = linspace(0,3,100);
+xa = linspace(0,3,20);
 yab = x./sqrt(1+2*x.^2);
 g = bar(xa,yab,'histc');
 hold on
